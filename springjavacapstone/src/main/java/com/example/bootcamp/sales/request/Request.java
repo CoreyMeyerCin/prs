@@ -2,7 +2,12 @@ package com.example.bootcamp.sales.request;
 
 import javax.persistence.*;
 
+import com.example.bootcamp.sales.requestline.Requestline;
 import com.example.bootcamp.sales.user.User;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
+import java.util.List;
 
 @Entity
 
@@ -14,7 +19,7 @@ public class Request {
      private String description ;
 	@Column(length=30, nullable=false)
      private String justification;
-	@Column(length=30, nullable=false)
+	@Column(length=30, nullable=true)
      private String rejectionReason;
 	@Column(length=30, nullable=false)
      private String deliveryMode;
@@ -23,18 +28,34 @@ public class Request {
 	@Column(columnDefinition="decimal(9,2) NOT NULL DEFAULT 0.0")
      private double total;
 
+	@JsonBackReference
      @ManyToOne(optional=false)
      @JoinColumn(name="userId")
      private User user;
+	
+	@JsonManagedReference
+    @OneToMany(mappedBy="request")
+    private List<Requestline> requestlines;
+	
      ///////////////////////////////
      public Request() {}
      
      
      
      /////////////////////////////////////////
+     public List<Requestline> getRequestlines() {
+ 		return requestlines;
+ 	}
+     
+ 	public void setRequestlines(List<Requestline> requestlines) {
+ 		this.requestlines = requestlines;
+ 	}
+     
 	public int getId() {
 		return id;
 	}
+
+
 	public void setId(int id) {
 		this.id = id;
 	}

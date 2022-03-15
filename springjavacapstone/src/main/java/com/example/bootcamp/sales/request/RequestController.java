@@ -21,6 +21,17 @@ public class RequestController {
 	@Autowired
 	private RequestRepository requestRepo;
 	
+	@GetMapping("review/{userId}")
+	public ResponseEntity<Iterable<Request>> GetReviews(@PathVariable int userId){
+		var requests = requestRepo.findAll();
+		for(Request currentReq : requests) 
+			if(currentReq.getStatus()=="REVIEW" && currentReq.getUser().getId() != userId){
+				return new ResponseEntity<Iterable<Request>>(requests, HttpStatus.OK);
+			}
+			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+	}
+	
+	
 	@GetMapping
 	public ResponseEntity<Iterable<Request>> GetRequest(){
 		var requests =requestRepo.findAll();
@@ -44,6 +55,50 @@ public class RequestController {
 		var r1 =requestRepo.save(request);
 		return new ResponseEntity<Request>(r1,HttpStatus.CREATED);
 	}
+	
+	@PutMapping("{id}/review")
+	public ResponseEntity<Request> ReviewRequest(@RequestBody Request request, @PathVariable int id) {
+		if (request == null || request.getId()==0) {
+			return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+		}
+		var r1 = requestRepo.findById(id);
+		if (r1.isEmpty()) {
+			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		}
+		if(r1.get().getTotal() >= 50) {
+			r1.get().setStatus("APPROVED");
+			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+		}
+		r1.get().setStatus("REVIEW");
+		return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+	}
+	
+	@PutMapping("{id}/reject")
+	public ResponseEntity<Request> RejectRequest(@RequestBody Request request, @PathVariable int id){
+		if(request == null || request.getId() ==0) {
+			return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+		}
+		var r1 = requestRepo.findById(id);
+		if(r1.isEmpty()) {
+			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		}
+		r1.get().setStatus("REJECTED"); 
+		return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+	}
+	
+	@PutMapping("{id}/approve")
+	public ResponseEntity<Request> ApproveRequest(@RequestBody Request request, @PathVariable int id){
+		if(request == null || request.getId() ==0) {
+			return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+		}
+		var r1 = requestRepo.findById(id);
+		if(r1.isEmpty()) {
+			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		}
+		r1.get().setStatus("APPROVED"); 
+		return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+	}
+	
 	
 	@PutMapping("{id}")
 	public ResponseEntity<Request> PutRequest(@RequestBody Request request, @PathVariable int id){
