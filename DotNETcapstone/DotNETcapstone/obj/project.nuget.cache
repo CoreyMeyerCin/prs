@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1wh5U/dfC4/qrcCgpYzhNrKTBk+EKgomEYYNycVSl+I9yXZEUKCI2D0sC1ILglprGl1UmeduYrkPta2wTMJ7wA==",
+  "dgSpecHash": "XqS3xY5ehURFQtRoHEDt4v/BlXmryxBSmyfOR/odshzC21VSJin1eB6aDPcxKbp6pyPj0Q9t3o77J6/E9UoYlA==",
   "success": true,
-  "projectFilePath": "C:\\repos\\prs\\DotNETcapstone\\DotNETcapstone\\DotNETcapstone.csproj",
+  "projectFilePath": "C:\\prs\\DotNETcapstone\\DotNETcapstone\\DotNETcapstone.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Corey\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Corey\\.nuget\\packages\\castle.windsor\\5.1.1\\castle.windsor.5.1.1.nupkg.sha512",
@@ -173,8 +173,7 @@
     "C:\\Users\\Corey\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Corey\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Corey\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Corey\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Corey\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+    "C:\\Users\\Corey\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

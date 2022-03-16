@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\prs\\DotNETcapstone\\DotNETcapstone\\DotNETcapstone.csproj": {}
+    "C:\\prs\\DotNETcapstone\\DotNETcapstone\\DotNETcapstone.csproj": {}
   },
   "projects": {
-    "C:\\repos\\prs\\DotNETcapstone\\DotNETcapstone\\DotNETcapstone.csproj": {
+    "C:\\prs\\DotNETcapstone\\DotNETcapstone\\DotNETcapstone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\prs\\DotNETcapstone\\DotNETcapstone\\DotNETcapstone.csproj",
+        "projectUniqueName": "C:\\prs\\DotNETcapstone\\DotNETcapstone\\DotNETcapstone.csproj",
         "projectName": "DotNETcapstone",
-        "projectPath": "C:\\repos\\prs\\DotNETcapstone\\DotNETcapstone\\DotNETcapstone.csproj",
+        "projectPath": "C:\\prs\\DotNETcapstone\\DotNETcapstone\\DotNETcapstone.csproj",
         "packagesPath": "C:\\Users\\Corey\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\prs\\DotNETcapstone\\DotNETcapstone\\obj\\",
+        "outputPath": "C:\\prs\\DotNETcapstone\\DotNETcapstone\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Corey\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -81,12 +81,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.13, 5.0.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -95,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
