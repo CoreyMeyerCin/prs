@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mbTBVj0qALUWHRpLeyUR4kPK+L+sTY2Jcrl+qA6bqx7ADJ0J+7btGtYdYnVl/oD9oGCE2W+DUoRY7Q6VJHR75Q==",
+  "dgSpecHash": "zURgoch0GdWmAspJWdwzrvSTbZ43zdeTuwcZrUwTQG3MRI5FQBEkPZXJWI4HqOYoVbsAaKKl+TisHrv1MMRaHA==",
   "success": true,
   "projectFilePath": "C:\\prs\\DotNETCapstoneFinal\\DotNETCapstoneFinal\\DotNETCapstoneFinal.csproj",
   "expectedPackageFiles": [
@@ -127,7 +127,8 @@
     "C:\\Users\\Corey\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Corey\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Corey\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Corey\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Corey\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Corey\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],
   "logs": []
 }

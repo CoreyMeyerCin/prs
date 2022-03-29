@@ -9,6 +9,8 @@ using DotNETCapstoneFinal.Models;
 
 namespace DotNETCapstoneFinal.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class ProductsController : Controller
     {
         private readonly AppDbContext _context;

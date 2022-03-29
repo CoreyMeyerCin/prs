@@ -23,7 +23,7 @@ namespace DotNETCapstoneFinal.Models
             if (!builder.IsConfigured)
             {
                 builder.UseSqlServer(
-                    "server=localhost//sqlexpress;database=prscapstonedb;trusted_connection=true;");
+                    "server=localhost\\sqlexpress;database=prscapstonedbfinal;trusted_connection=true;");
             }
 
         }

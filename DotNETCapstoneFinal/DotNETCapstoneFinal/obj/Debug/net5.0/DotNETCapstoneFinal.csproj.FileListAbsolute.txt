@@ -49,7 +49,6 @@ C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\staticwebassets\
 C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\DotNETCapstoneFinal.RazorTargetAssemblyInfo.cache
 C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\DotNETCapstoneFinal.csproj.CopyComplete
 C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\DotNETCapstoneFinal.dll
-C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\refint\DotNETCapstoneFinal.dll
 C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\DotNETCapstoneFinal.pdb
 C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\DotNETCapstoneFinal.genruntimeconfig.cache
 C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\ref\DotNETCapstoneFinal.dll
@@ -157,3 +156,9 @@ C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\Razor\Views\Requ
 C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\Razor\Views\RequestLines\Details.cshtml.g.cs
 C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\Razor\Views\RequestLines\Edit.cshtml.g.cs
 C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\Razor\Views\RequestLines\Index.cshtml.g.cs
+C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\bin\Debug\net5.0\ref\DotNETCapstoneFinal.dll
+C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\Razor\Views\Users\Create.cshtml.g.cs
+C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\Razor\Views\Users\Delete.cshtml.g.cs
+C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\Razor\Views\Users\Details.cshtml.g.cs
+C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\Razor\Views\Users\Edit.cshtml.g.cs
+C:\prs\DotNETCapstoneFinal\DotNETCapstoneFinal\obj\Debug\net5.0\Razor\Views\Users\Index.cshtml.g.cs
